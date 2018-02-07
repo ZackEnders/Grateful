@@ -77,4 +77,21 @@ h3 {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll; } }
 
+#photo {
+  background-image: url("img/catering4.jpg");
+  background-position: center;
+  height: 600px;
+  width: 600%;
+  border: 2px solid black;
+  margin-top: 10%; }
+
+#textbox1 {
+  height: 200px;
+  width: 400px;
+  border: 2px solid black;
+  position: absolute;
+  top: 98%;
+  left: 5%;
+  background-color: gray; }
+
 /*# sourceMappingURL=main.css.map */
