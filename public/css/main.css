@@ -64,15 +64,13 @@ h3 {
   color: 777777;
   background-color: white;
   text-align: center;
-  padding: 50px 80px;
-  text-align: justify; }
+  padding: 50px 80px; }
 
 .bev-items {
   color: 777777;
   background-color: white;
   text-align: center;
-  padding: 50px 80px;
-  text-align: justify; }
+  padding: 50px 80px; }
 
 /* Turns off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
