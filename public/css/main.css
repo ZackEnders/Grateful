@@ -115,7 +115,7 @@ h3 {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll; } }
 #photo {
-  background-image: url("img/catering4.jpg");
+  background-image: url("../img/catering4.jpg");
   background-position: center;
   height: 600px;
   width: 600%;
