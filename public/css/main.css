@@ -93,4 +93,12 @@ h1 {
   margin-right: auto;
   background-color: white; }
 
+#textbox2 {
+  height: 400px;
+  width: 450px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red; }
+
 /*# sourceMappingURL=main.css.map */
