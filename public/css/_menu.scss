@@ -13,7 +13,13 @@
     background-size: cover;
 }
 
-body, html {
+.mainbody {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777777;
+}
+.mainhtml {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
@@ -67,7 +73,7 @@ body, html {
   letter-spacing: 10px;
 }
 
-h3 {
+.titleh3 {
   letter-spacing: 2px;
   // text-transform: uppercase;
   font: 20px "Lato", sans-serif;
