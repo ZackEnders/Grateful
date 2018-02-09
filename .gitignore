@@ -1,9 +1,9 @@
 
  +# Mac filesystem garbage
- +*.DS_STORE
- +*.DS_Store
- +*.map
- +
+
+.DS_Store
+ .map
+ 
  +# Sass Cache
- +*.scssc
- +.sass-cache/
+ .scssc
+ .sass-cache/
