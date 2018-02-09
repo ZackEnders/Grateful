@@ -1,6 +1,36 @@
+<<<<<<< HEAD
 .navbar {
   float: left; }
 
+=======
+* {
+  margin: 0;
+  padding: 0; }
+
+#header nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%; }
+
+#navbar li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  float: left; }
+
+#navbar a {
+  display: block;
+  padding: 20px;
+  margin: 0;
+  text-decoration: none;
+  color: white; }
+
+#navbar a:hover {
+  background-color: #2B2A30; }
+
+>>>>>>> 8cb51a8d9c7bc25f2bf8496f3a68aa62293a3c14
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -35,7 +65,7 @@
     left: -100%; } }
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url("../img/videoframe.jpg") center center/cover no-repeat; }
+    background: url("../img/longpour.jpg") center center/cover no-repeat; }
 
   .fullscreen-video {
     display: none; } }
@@ -120,7 +150,7 @@ h2 {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll; } }
 #photo {
-  background-image: url("img/catering4.jpg");
+  background-image: url("../img/catering4.jpg");
   background-position: center;
   height: 600px;
   width: 600%;
