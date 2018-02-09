@@ -1,13 +1,12 @@
+<!DOCTYPE html>
+<html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
-
-	
-<h1>Welcome to My Website!!</h1>
-
-<nav class="navbar">
+<header id="header">
+<nav id="navbar">
 	<ul>
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
@@ -16,9 +15,14 @@
 		<li><a href="/contact">Contact</a></li>
 	</ul>
 </nav>
-
+</header>
 <div class="main-container"> <%= yield %> </div>
 
-<script type="text/javascript" src="javascript/layout.js"></script>
 
+
+
+
+
+<script type="text/javascript" src="javascript/layout.js"></script>
 </body>
+</html>
