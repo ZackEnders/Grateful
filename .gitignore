@@ -2,8 +2,6 @@
  +# Mac filesystem garbage
 
 .DS_Store
-.map
-/main.css
 /main.css.map
  
  +# Sass Cache
