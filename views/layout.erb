@@ -1,26 +1,27 @@
-<head>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 
-<body>
-	
-<h1>Coffee</h1>
-
-<nav class="navbar">
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/about">About</a></li>
-		<li><a href="/menu">Menu</a></li>
-		<li><a href="/catering">Catering</a></li>
-		<li><a href="/contact">Contact</a></li>
-	</ul>
-</nav>
-
-<div class="main-container"> <%= yield %> </div>
-
-<script type="text/javascript" src="javascript/layout.js"></script>
-
-</body>
+    <body>
+        <header id="header">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/menu">Menu</a></li>
+                    <li><a href="/catering">Catering</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-container">
+            <%= yield %>
+        </div>
+        <script type="text/javascript" src="javascript/layout.js"></script>
+    </body>
 
 </html>
