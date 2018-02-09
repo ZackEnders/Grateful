@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 
-<body>
-<header id="header">
-<nav id="navbar">
+    <body>
+        <header id="header">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/menu">Menu</a></li>
+                    <li><a href="/catering">Catering</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-container">
+            <%= yield %>
+        </div>
+        <script type="text/javascript" src="javascript/layout.js"></script>
+    </body>
 
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/about">About</a></li>
-		<li><a href="/menu">Menu</a></li>
-		<li><a href="/catering">Catering</a></li>
-		<li><a href="/contact">Contact</a></li>
-	</ul>
-</nav>
-</header>
-<div class="main-container"> <%= yield %> </div>
-
-
-<script type="text/javascript" src="javascript/layout.js"></script>
-</body>
 </html>
+
 
