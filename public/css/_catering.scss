@@ -1,11 +1,13 @@
 #photo{
 	background-image: url('img/catering4.jpg');
 	background-position: center;
-	height:600px;
-	width:600%;
+	height:300px;
+	width:50%;
 	border: 2px solid black;
 	margin-top:10%;
-	// background-color:red;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:red;
 
 }
 #textbox1{
@@ -15,7 +17,7 @@
 	position: absolute;
 	top:98%;
 	left:5%;
-	background-color:gray;
+	background-color:red;
 }
 // #textbox2{
 // 	height:100%;
