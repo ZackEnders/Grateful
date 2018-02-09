@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-.navbar {
-  float: left; }
-
-=======
 * {
   margin: 0;
   padding: 0; }
@@ -30,7 +25,6 @@
 #navbar a:hover {
   background-color: #2B2A30; }
 
->>>>>>> 8cb51a8d9c7bc25f2bf8496f3a68aa62293a3c14
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -69,6 +63,83 @@
 
   .fullscreen-video {
     display: none; } }
+.parallax {
+  /* The image used */
+  background-image: url("../img/coffee-table.jpg");
+  /* sets a specific height */
+  height: 700px;
+  /* creates the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777777; }
+
+.img1, .img2, .img3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img1 {
+  background-image: url("../img/coffee-pour.jpg");
+  min-height: 100%; }
+
+.img2 {
+  background-image: url("../img/coffee-lids.jpg");
+  min-height: 700px; }
+
+.img3 {
+  background-image: url("../img/coffee-smile.jpg");
+  min-height: 700px; }
+
+.title {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000; }
+
+.title span.menu {
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px; }
+
+h3 {
+  letter-spacing: 2px;
+  font: 20px "Lato", sans-serif;
+  text-align: center;
+  color: #111111; }
+
+h2 {
+  font-style: italic; }
+
+.menu-items {
+  color: 777777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px; }
+
+.bev-items {
+  color: 777777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px; }
+
+/* Turns off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll; } }
 h1 {
   color: green; }
 
@@ -165,33 +236,5 @@ h2 {
   top: 98%;
   left: 5%;
   background-color: gray; }
-
-.footer {
-  position: relative;
-  color: #dddddd;
-  bottom: 0;
-  background-color: #282E34;
-  text-align: inline-block;
-  width: 100%; }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #282E34; }
-
-li {
-  float: right; }
-
-a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none; }
-
-li a:hover {
-  background-color: #111111; }
 
 /*# sourceMappingURL=main.css.map */
