@@ -96,23 +96,23 @@
   text-align: center; }
 
 #aboutuspic1 {
-  background-image: url("catering4.jpg");
-  height: 500px;
-  width: 100%;
-  border: 2px auto solid black;
-  background-color: white; }
+  background-image: url("../img/aboutus2.jpg");
+  background-position: fixed;
+  height: 600px;
+  width: 100%; }
 
 #aboutustext {
-  height: 400px;
+  height: 300px;
   width: 600px;
   border: 2px solid black;
   text-align: center;
   background-color: tan;
-  margin-top: 0%;
+  margin-top: 20%;
   margin: auto;
   position: absolute;
   left: 0%;
-  right: 0%; }
+  right: 0%;
+  background-opacity: 0%; }
 
 /* Turns off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
