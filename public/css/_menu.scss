@@ -1,3 +1,71 @@
+//_____________________MODAL________________________
+
+
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  display: none;
+  background: black;
+  border: 2px solid;
+  z-index: 100;
+}
+
+.modal-guts {
+  color: white;
+  padding: 10px 10px 0 10px;
+}
+.centerer {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  right: 0px;
+  padding: 2px;
+  margin: 5px;
+  font-size:14px;
+  z-index: 1;
+  display: block;
+}
+
+.subscribe {
+  background-color: white;
+  font-size: 28px;
+  height: 36px;
+}
+
+.align { 
+  text-align: center;
+}
+.align input{
+  width: 300px;
+  height: 32px;
+}
+
+.input1 {
+  padding: 10px; 
+}
+#modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+// _____________________________________________________________
+
+
 .parallax { 
     /* The image used */
     background-image: url("../img/coffee-table.jpg");
@@ -13,7 +81,16 @@
     background-size: cover;
 }
 
-body, html {
+.mainbody {
+
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777777;
+}
+
+.mainhtml {
+
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
@@ -33,7 +110,7 @@ body, html {
 // details for image 1
 .img1 {
   background-image: url("../img/coffee-pour.jpg");
-  min-height: 100%;
+  min-height: 700px;
 }
 
 // details for image 2
@@ -67,16 +144,16 @@ body, html {
   letter-spacing: 10px;
 }
 
-h3 {
+.titleh2 {
+  font-style: italic;
+}
+
+.titleh3 {
   letter-spacing: 2px;
   // text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   text-align: center;
   color: #111111;
-}
-
-h2 {
-  font-style: italic;
 }
 
 .menu-items {

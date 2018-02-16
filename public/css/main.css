@@ -3,27 +3,53 @@
   padding: 0; }
 
 #header nav {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: black;
   position: fixed;
   right: 0;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 100;
+  text-align: center; }
 
 #navbar li {
   display: inline-block;
-  width: 100px;
-  text-align: center;
-  float: left; }
+  width: 200px;
+  text-align: center; }
+
+.current {
+  background: #2B2A30; }
 
 #navbar a {
   display: block;
   padding: 20px;
-  margin: 0;
   text-decoration: none;
-  color: white; }
+  color: white;
+  font: 18px 'Lato', sans-serif;
+  text-transform: uppercase; }
 
 #navbar a:hover {
   background-color: #2B2A30; }
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+  text-align: center; }
+
+.footerText {
+  color: white;
+  padding: 0 20px;
+  display: inline-block;
+  font: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+
+.edge {
+  border-right: 0.5px solid #2B2A30; }
 
 .fullscreen-bg {
   position: fixed;
@@ -32,7 +58,8 @@
   bottom: 0;
   left: 0;
   overflow: hidden;
-  z-index: -100; }
+  z-index: -100; 
+}
 
 .fullscreen-video {
   position: absolute;
@@ -73,8 +100,60 @@
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll; } }
-h1 {
-  color: green; }
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  display: none;
+  background: black;
+  border: 2px solid;
+  z-index: 100; }
+
+.modal-guts {
+  color: white;
+  padding: 10px 10px 0 10px; }
+
+.centerer {
+  text-align: center; }
+
+.close {
+  position: absolute;
+  right: 0px;
+  padding: 2px;
+  margin: 5px;
+  font-size: 14px;
+  z-index: 1;
+  display: block; }
+
+.subscribe {
+  background-color: white;
+  font-size: 28px;
+  height: 36px; }
+
+.align {
+  text-align: center; }
+
+.align input {
+  width: 300px;
+  height: 32px; }
+
+.input1 {
+  padding: 10px; }
+
+#modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.7);
+  display: none; }
 
 .parallax {
   /* The image used */
@@ -87,7 +166,13 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-body, html {
+.mainbody {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777777; }
+
+.mainhtml {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
@@ -103,7 +188,7 @@ body, html {
 
 .img1 {
   background-image: url("../img/coffee-pour.jpg");
-  min-height: 100%; }
+  min-height: 700px; }
 
 .img2 {
   background-image: url("../img/coffee-lids.jpg");
@@ -128,14 +213,14 @@ body, html {
   font-size: 25px;
   letter-spacing: 10px; }
 
-h3 {
+.titleh2 {
+  font-style: italic; }
+
+.titleh3 {
   letter-spacing: 2px;
   font: 20px "Lato", sans-serif;
   text-align: center;
   color: #111111; }
-
-h2 {
-  font-style: italic; }
 
 .menu-items {
   color: 777777;

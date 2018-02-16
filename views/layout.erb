@@ -3,24 +3,30 @@
 
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
     <body>
-        <header id="header">
+      <header id="header">
             <nav id="navbar">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/menu">Menu</a></li>
-                    <li><a href="/catering">Catering</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/"> H o m e</a></li>
+                    <li><a href="/about">A b o u t</a></li>
+                    <li class="current"><a href="/menu">M e n u</a></li>
+                    <li><a href="/catering">C a t e r i n g</a></li>
+                    <li><a href="/contact">C o n t a c t</a></li>
+
                 </ul>
             </nav>
         </header>
         <div class="main-container">
             <%= yield %>
         </div>
+        <footer id="footer">
+        <div class="footerText edge">Come get some coffee today!</div>
+            <div class="footerText edge">387 S Market Street</div>
+            <div class="footerText">610-432-1231</div>
+        </footer>
         <script type="text/javascript" src="javascript/layout.js"></script>
     </body>
 
