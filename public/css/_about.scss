@@ -1,11 +1,30 @@
+#aboutus{
+	font-size:30pt;
+	color:black;
+	margin-top:10%;
+	text-align:center;
+
+}
 #aboutuspic1{
-  // background-image:url("catering4.jpg");
+  background-image:url("catering4.jpg");
+
   height:500px;
   width:100%;
   border: 2px auto solid black;
-  background-color:pink;
+  background-color:white;
 }
-
+#aboutustext{
+	height:400px;
+	width:600px;
+	border: 2px solid black;
+	text-align:center;
+	background-color:tan;
+	margin-top:0%;
+	margin:auto;
+    position:absolute;
+	left:0%;
+	right:0%;
+}
 
 
 
