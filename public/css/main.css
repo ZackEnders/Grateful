@@ -92,8 +92,10 @@
 #aboutus {
   font-size: 30pt;
   color: black;
-  margin-top: 10%;
-  text-align: center; }
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  text-shadow: 2px 2px brown; }
 
 #aboutuspic1 {
   background-image: url("../img/aboutus2.jpg");
@@ -102,17 +104,18 @@
   width: 100%; }
 
 #aboutustext {
-  height: 300px;
+  height: 450px;
   width: 600px;
-  border: 2px solid black;
   text-align: center;
   background-color: tan;
-  margin-top: 20%;
   margin: auto;
   position: absolute;
   left: 0%;
   right: 0%;
-  background-opacity: 0%; }
+  opacity: .8;
+  font-size: 14pt;
+  font-family: 'Shrikhand', cursive;
+  box-shadow: 5px 5px 5px 5px black; }
 
 /* Turns off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
