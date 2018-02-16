@@ -64,6 +64,7 @@
   .fullscreen-video {
     display: none; } }
 #aboutuspic1 {
+  background-image: url("catering4.jpg");
   height: 500px;
   width: 100%;
   border: 2px auto solid black;
@@ -202,4 +203,4 @@ h2 {
   width: 100%;
   background: #999; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.csss.map */
