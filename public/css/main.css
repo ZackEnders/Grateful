@@ -90,16 +90,16 @@
   .fullscreen-video {
     display: none; } }
 #aboutus {
-  font-size: 30pt;
+  font-size: 70pt;
   color: black;
   margin-top: 60px;
   text-align: center;
   font-family: 'Shrikhand', cursive;
-  text-shadow: 2px 2px brown; }
+  text-shadow: 2px 2px purple; }
 
 #aboutuspic1 {
-  background-image: url("../img/aboutus2.jpg");
-  background-position: fixed;
+  background-image: url("../img/aboutus3.jpg");
+  background-position: cover;
   height: 600px;
   width: 100%; }
 
@@ -260,18 +260,20 @@
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll; } }
 #catering-background {
-  background-color: white; }
+  background-color: tan; }
 
 #catering {
-  margin-top: 7%;
+  margin-top: 4%;
   color: black;
   box-shadow: 5px 5px 5px 5px grey;
   font-family: 'Overlock', cursive;
-  font-size: 60pt;
-  text-decoration: underline; }
+  font-size: 80pt;
+  text-decoration: underline;
+  background-color: brown;
+  text-shadow: 2px 2px white; }
 
 #photo {
-  background-image: url("../img/catering4.jpg");
+  background-image: url("../img/catering2.jpg");
   background-position: center;
   border-radius: 20%;
   height: 400px;
@@ -285,20 +287,24 @@
 
 #catering2 {
   font-family: 'Overlock', cursive;
-  color: red; }
+  color: black;
+  font-size: 30pt;
+  text-shadow: 2px 2px white; }
 
 #textbox1 {
-  height: 500px;
+  height: 300px;
   width: 50%;
   border: 0px solid black;
-  margin-top: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-family: 'Overlock', cursive;
   font-size: 20pt;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  color: black; }
+  color: black;
+  box-shadow: 8px 8px 8px 8px black; }
 
 #cateringfooter {
   position: fixed;

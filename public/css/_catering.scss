@@ -1,17 +1,19 @@
 #catering-background{
-	background-color:white;
+	background-color:tan;
 }
 #catering{
-	margin-top:7%;
+	margin-top:4%;
 	color:black;
 	box-shadow:5px 5px 5px 5px grey;
 	font-family: 'Overlock', cursive;
-	font-size:60pt;
+	font-size:80pt;
 	text-decoration:underline;
+	background-color:brown;
+	text-shadow: 2px 2px white;
 }
 
 #photo{
-	background-image: url('../img/catering4.jpg');
+	background-image: url('../img/catering2.jpg');
 	background-position: center;
 	border-radius:20%;
 	height:400px;
@@ -27,13 +29,16 @@
 }
 #catering2{
 	font-family: 'Overlock', cursive;
-	color:red;
+	color:black;
+	font-size:30pt;
+	text-shadow: 2px 2px white;
 }
 #textbox1{
-	height:500px;
+	height:300px;
 	width:50%;
 	border: 0px solid black;
-	margin-top:4%;
+	margin-top:2%;
+	margin-bottom:2%;
 	font-family: 'Overlock', cursive;
 	font-size:20pt;
 	// position: absolute;
@@ -44,6 +49,7 @@
 	margin-right:auto;
 	background-color:white;
 	color:black;
+	box-shadow: 8px 8px 8px 8px black;
 }
 // #textbox2{
 // 	height:100px;
