@@ -91,7 +91,7 @@
   color: black;
   margin-top: 60px;
   text-align: center;
-  font: "Lato", sans-serif;
+  font: 48px "Lato", sans-serif;
   text-shadow: 1px 1px white; }
 
 #aboutuspic1 {
@@ -120,19 +120,59 @@
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll; } }
 #contact-body {
-  background-color: red; }
+  background-image: url("../img/contact.jpg");
+  background-position: cover;
+  background-size: 100% 100%;
+  height: 600px;
+  width: 100%; }
 
 #contact-h1 {
   margin-top: 100px;
   font-size: 40pt;
-  color: black;
+  color: grey;
   margin-top: 60px;
   text-align: center;
-  font: "Lato", sans-serif;
+  font: 48px "Lato", sans-serif;
   text-shadow: 1px 1px white; }
 
 #contct-forms {
-  margin-top: 80px;
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 20px; }
+
+#form-box {
+  width: 350px; }
+
+input[type=text], select, textarea {
+  font: 18px "Lato", sans-serif;
+  width: 350px;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical; }
+
+input[type=submit] {
+  font: 18px "Lato", sans-serif;
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #45a049; }
+
+textarea {
+  font: 18px "Lato", sans-serif;
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 350px;
+  max-width: 350px; }
+
+.centerer {
   text-align: center; }
 
 * {
