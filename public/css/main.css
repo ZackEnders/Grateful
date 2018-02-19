@@ -39,11 +39,11 @@
 
 .footerText {
   color: white;
-  padding: 0 20px;
+  padding: 7.5px 20px;
   display: inline-block;
-  font: 'Lato', sans-serif;
+  font: 14px 'Lato', sans-serif;
   text-transform: uppercase;
-  letter-spacing: .1em; }
+  letter-spacing: .2em; }
 
 .edge {
   border-right: 0.5px solid #2B2A30; }
@@ -134,6 +134,10 @@
 #contct-forms {
   margin-top: 80px;
   text-align: center; }
+
+* {
+  padding: 0;
+  margin: 0; }
 
 .modal {
   position: fixed;
@@ -245,8 +249,7 @@
   background-color: #111111;
   color: #FFFFFF;
   padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px; }
+  font-size: 25px; }
 
 .titleh2 {
   font-style: italic; }
