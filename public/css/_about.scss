@@ -1,34 +1,39 @@
 #aboutus{
-	font-size:70pt;
+	font-size:40pt;
 	color:black;
 	margin-top:60px;
 	text-align:center;
-	font-family: 'Shrikhand', cursive;
-	text-shadow: 2px 2px purple;
+	font:"Lato", sans-serif;
+	text-shadow: 1px 1px white;
 
 }
+
 #aboutuspic1{
-  background-image:url("../img/aboutus3.jpg");
+  background-image:url("../img/aboutus8.jpg");
   background-position:cover;
+  // background-repeat: no-repeat;
+  background-size: 100% 100%;
   height:600px;
   width:100%;
   
   
 }
 #aboutustext{
-	height:450px;
+	height:400px;
 	width:600px;
 	// border: 2px solid black;
 	text-align:center;
-	background-color:tan;
+	background-color: rgba(255, 255, 255, .6);
 	// padding-top:10%;
 	margin:auto;
+	margin-bottom:0px;
     position:absolute;
 	left:0%;
 	right:0%;
-	opacity: .8;
+
+	// opacity: .5;
 	font-size:14pt;
-	font-family: 'Shrikhand', cursive;
+	font: 20px "Lato", sans-serif;
 	box-shadow: 5px 5px 5px 5px black;
 	
 }
