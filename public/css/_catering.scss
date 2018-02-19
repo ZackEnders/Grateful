@@ -1,49 +1,41 @@
 #catering-background{
-	background-color:tan;
+	background-color:white;
+	background-image: url('../img/cateringimg.jpg');
+	background-size: cover;
+	height:600px;
+	width:100%;
 }
-#catering{
-	margin-top:2%;
+
+#catering2{
+	font: 400 15px/1.8 "Lato", sans-serif;
 	color:black;
-	box-shadow:5px 5px 5px 5px grey;
-}
-
-#photo{
-	background-image: url('../img/catering4.jpg');
-	background-position: center;
-	border-radius:20%;
-	height:400px;
-	width:50%;
-	border: 0px solid black;
-	// margin-top:%;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:red;
-	box-shadow:5px 5px 5px 5px brown;
-
+	font-size:40pt;
+	text-shadow: 1px 1px white;
+	margin-top:50px;
 }
 #textbox1{
-	height:200px;
+	height:300px;
 	width:50%;
 	border: 0px solid black;
-	margin-top:4%;
-	// position: absolute;
-	// top:98%;
-	// left:50%;
+	margin-top:2%;
+	margin-bottom:2%;
+	font-family: 'Overlock', cursive;
+	font-size:20pt;
+	
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:white;
+	color:black;
+	box-shadow: 8px 8px 8px 8px black;
+	background-color: rgba(255, 255, 255, .6);
 }
-#textbox2{
-	height:400px;
-	width:450px;
-	border: 2px solid black;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:red;
-	// position: absolute;
-	// top:43%;
-	// left:69%;
-	// background-color:gray;
 
+#cateringfooter{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
 }

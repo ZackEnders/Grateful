@@ -1,5 +1,8 @@
 //_____________________MODAL________________________
-
+* {
+  padding: 0;
+  margin: 0;
+}
 
 
 .modal {
@@ -63,7 +66,7 @@
   display: none;
 }
 
-// _____________________________________________________________
+
 
 
 .parallax { 
@@ -141,7 +144,6 @@
   color: #FFFFFF;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
 }
 
 .titleh2 {
