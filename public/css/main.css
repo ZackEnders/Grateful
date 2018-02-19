@@ -16,9 +16,6 @@
   width: 200px;
   text-align: center; }
 
-.current {
-  background: #2B2A30; }
-
 #navbar a {
   display: block;
   padding: 20px;
@@ -279,7 +276,7 @@
 #catering-background {
   background-color: white;
   background-image: url("../img/cateringimg.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   height: 600px;
   width: 100%; }
 
